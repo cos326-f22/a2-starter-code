@@ -1,0 +1,109 @@
+Netids (include all members of group, if partnering):
+  [list here]
+
+=======================================================================
+Optional: Explain any difficulties you had with this assignment or any
+parts that are incomplete.  Suggestions on how this assignment could
+be improved to help students learn more are welcome:
+
+
+
+
+
+=======================================================================
+For each of the following questions,
+
+(A) give the answer
+
+(B) give the shell command (or commands) you used to answer the
+question and in a sentence, explain why your shell command gives you
+helpful data.
+
+Use the data given in the files G.txt, PG.txt, PG-13.txt, R.txt for
+the set of top-grossing films in each rating category (G, PG, PG-13
+and R).
+
+1.  What is the top-grossing film of all time (use the alltime.txt data)?
+
+(A)
+
+(B)
+
+2. What is the 50th ranked R film by gross on the list?
+
+(A)
+
+(B)
+
+3. Suppose you had a chance to make 1 film with a top director and the
+director was so good you were guaranteed that whatever film you made
+would be in the top 5 grossing films in its ratings category (G, PG,
+PG-13, R) --- and equally likely to be ranked 1, 2, 3, 4, or 5.  What
+rating (G, PG, PG-13, R) would you choose to give your film if you
+wanted to make the most money?
+
+(A)
+
+(B)
+
+4. Using the data in alltime.txt, would you have preferred to make
+money off of movies in the 70s or in the 80s?
+
+(A)
+
+(B)
+
+5. Using the data in alltime.txt, which studio made the most
+money off of movies in the 60s?
+
+(A)
+
+(B)
+
+In doing this homework I used the following sources:
+
+1. Sources I don't need to mention   [see notes 1 and 4]
+2. Authorized sources  [see notes 2 and 4]
+   [list here]
+3. Unauthorized sources [see notes 3 and 4]
+   [list here]
+
+This paper represents my own work in accordance with University regulations.
+
+Signed, [your name(s):]
+
+------------------------------------------------------------------------
+
+NOTE 1:   Sources you don't need to mention
+  (unless you paste code from them verbatim) include:
+  this semester's lectures and precepts,  the course web site,
+  the assignment handout (download), Real World OCaml, and the OCaml manual.
+
+NOTE 2:  Authorized sources include:
+    professors and preceptors (outside of lecture or precept);
+    advice from other students (but not looking at their solutions
+    to this course's homeworks);
+    other books, and (within reason) web sites such as stackoverflow.com
+    (for general questions about OCaml bugs, not for solutions to
+    the homework).
+  List by name, by URL, or by bibliographic citation, as appropriate.
+
+NOTE 3:  "Why would I list an unauthorized source?"
+  Using an unauthorized source without citing it is an Academic Violation
+  under Princeton University's disciplinary code, and can result
+  in suspension from the University for one or more semesters.
+
+  Using an unauthorized source and citing it clearly is not an Academic
+  Violation, it is "merely" a violation of this homework's instructions,
+  and can result in (at most) getting a zero on this homework.
+
+  Unauthorized sources include, at least: other people's solutions
+  to these (or similar) homework problems.
+
+NOTE 4.  If you paste in code from from these sites,
+  you should clearly cite it at the point of use, in accordance with
+  Section 2.4.6 of RRR  for "direct quotation or extensive paraphrase".
+  https://rrr.princeton.edu/students#comp246
+  Please limit the amount of this that you do in accordance with the
+  principle that the purpose of these homeworks is so that you
+  can learn how to do things yourself.
