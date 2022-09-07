@@ -5,24 +5,28 @@
 The goal of this assignment is to produce OCaml code that will help you answer
 a set of questions about the top-grossing films in movie history.
 
-You should see the following files in this repository:
-- `part1.ml`: This file contains list-processing problems for you to complete as
+In this repo there are many files and subdirectories to follow
+the organization that keeps Dune happy.  In short, Dune wants
+a single "main.ml" file in one directory, and all the rest of the
+files in a "library" directory.
+
+Examine these files in particular:
+- `lib/part1.ml`: This file contains list-processing problems for you to complete as
     part 1 of the assignment.
-- `query.ml`: This file is mostly blank. You will write a set of functions to
+- `lib/query.ml`: This file is mostly blank. You will write a set of functions to
     analyze lists of movies as part 2 of the assignment.
-- `main.ml`: This file contains the driver for the program. Don't modify this
+- `main/main.ml`: This file contains the driver for the program. Don't modify this
     file, but you can take a look to see how it's organized. It uses the module
     `Arg` to parse command line arguments in a nice way.
-- `io.ml`: This utility file contains a set of useful routines for parsing and
+- `lib/io.ml`: This utility file contains a set of useful routines for parsing and
     printing movie files. Don't modify it, but feel free to take a look to see
     how it's organized. If you'd like to parse and print other simple text files
     using OCaml, this code could be a starting point.
-- `signature.txt`: Report your answers to the movie trivia questions in this
-    file. Also, explain any unusual design decisions or problems you had here.
-    Suggestions for improving this assignment are also welcome. You will also
-    record your sources here.
-- `Makefile`: Type `make all` to compile your code and create an executable you
-    can run to help you answer the key boxoffice trivia questions.
+- `signature.txt`: In this file you will sign the required statement that 
+    "this is my own work according to University regulations," you will list
+     your sources of information, and you will report your answers to the 
+     movie trivia questions.  Also, explain any unusual design decisions or 
+     problems you had here.
 - `data`: This directory contains the data you need to answer the questions
     asked on this assignment. The data was downloaded and processed in May 2012,
     so it will not be up to date&mdash;films like the *The Hunger Games* will
@@ -37,8 +41,15 @@ You should see the following files in this repository:
 
 ## Part 1: Lists
 
-Examine the contents of the file `part1.ml` and answer the questions found
-therein.
+*First:* In a Unix shell window, `dune build`.
+There should be no error messages.
+Doing this first makes VS Code error messages more useful.
+
+Your work in part1.ml is to uncomment each
+place that says UNCOMMENT ME and then
+to fix all the error messages and answer the questions.
+
+Then `dune build` should work again without reporting any errors.
 
 ## Part 2: Box Office Analysis in OCaml
 

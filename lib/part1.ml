@@ -14,7 +14,7 @@
    (Do not change the left-hand-side.)
 *)
 
-(*
+(* UNCOMMENT ME
 let exp1a : string = ""
 let prob1a : int list = [1, 2, 3]
 *)
@@ -24,7 +24,7 @@ let prob1a : int list = [1, 2, 3]
    right-hand-side of the assignment. (Do not change the
    right-hand-side.)
  *)
-(*
+(* UNCOMMENT ME
 let exp1b : string = ""
 let prob1b : string * int list = [("COS", 326); ("COS", 441)]
 *)
@@ -34,7 +34,7 @@ let prob1b : string * int list = [("COS", 326); ("COS", 441)]
    listed type. 
    (Do not change the left-hand-side.)  
 *)
-(*
+(* UNCOMMENT ME
 let exp1c : string = ""
 let prob1c : float list = [2.0; 3.0] :: [4.0; 5.0]
 *)
@@ -69,7 +69,7 @@ let prob1c : float list = [2.0; 3.0] :: [4.0; 5.0]
  *)
 
 (*>* Problem 2a *>*)
-(*  
+(* UNCOMMENT ME
 let prob2a : (float * (string * int) option list) list = 
 *)
 
@@ -77,13 +77,13 @@ let prob2a : (float * (string * int) option list) list =
 (* a student is a (name, age option) pair *)
 
 type student = string * int option
-(*
+(* UNCOMMENT ME
 let prob2b : (student list option * int) list = 
 *)
 
 
 (*>* Problem 2c *>*)
-(*
+(* UNCOMMENT ME
 let prob2c : (int * int -> int) * (float -> float -> unit) * bool  = 
 
 *)
@@ -91,7 +91,7 @@ let prob2c : (int * int -> int) * (float -> float -> unit) * bool  =
 (*>* Problem 2d *>*)
 (* Fill in a valid function call to foo to make prob2d typecheck *)
 
-(*
+(* UNCOMMENT ME
 let prob2d =
   let rec foo bar =
     match bar with
@@ -118,7 +118,7 @@ let rec zardoz f ls acc =
     let ans = zardoz f tl ans in
         ans
   
-(* Rewrite the code above so that it does the same thing
+(* Write a function "myzardoz" that does the same thing
  * but style-wise is far superior.  
  * Be sure to provide types for the function's arguments and to 
  * call itself (not the original zardoz) recursively as needed.
@@ -269,4 +269,3 @@ let testperm al =
 let _ = testperm [1;2;3]   (* etc *)
 
 *)
-  

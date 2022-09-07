@@ -4,6 +4,7 @@
      -- main driver program
 *)
 
+open A2lib
 open Query
 open Io
 
