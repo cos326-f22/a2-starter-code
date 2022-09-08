@@ -101,13 +101,8 @@ things are working properly, type the following:
 ./boxoffice -echo < data/trial1.txt
 ```
 
-The above command should send the contents of the `trial1.txt` data file out on
-to standard output. We also included that test as a part of your `Makefile` so
-you can also type the following to check your setup.
-
-```
-make check
-```
+That should send the contents of the `trial1.txt` data file out on
+to standard output. 
 
 Another command you might try is below. What should it do?
 
@@ -122,16 +117,6 @@ following do?
 ```
 ./boxoffice -sort-gross < data/G.txt | ./boxoffice -take 1
 ```
-
-Now, take a look inside `Makefile`. You will see the clause for compiling
-`boxoffice` at the top. At the bottom, you'll see the clause for `topG`. If you
-type:
-
-```
-make topG
-```
-
-you'll see the same thing. Feel free to add your own commands to the file.
 
 **To Do:** Use your script to answer the questions about boxoffice trivia posed
 in the `signature.txt` file. In addition to reporting the answers to the

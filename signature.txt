@@ -15,9 +15,9 @@ For each of the following questions,
 
 (A) give the answer
 
-(B) give the shell command (or commands) you used to answer the
-question and in a sentence, explain why your shell command gives you
-helpful data.
+(B) give the shell command (or piped sequence of commands) you used to
+ answer the question and in a sentence, explain why your shell command
+ gives you helpful data.
 
 Use the data given in the files G.txt, PG.txt, PG-13.txt, R.txt for
 the set of top-grossing films in each rating category (G, PG, PG-13
