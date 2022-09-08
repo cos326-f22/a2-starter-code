@@ -22,10 +22,10 @@ Examine these files in particular:
     printing movie files. Don't modify it, but feel free to take a look to see
     how it's organized. If you'd like to parse and print other simple text files
     using OCaml, this code could be a starting point.
-- `signature.txt`: In this file you will sign the required statement that 
+- `signature.txt`: In this file you will sign the required statement that
     "this is my own work according to University regulations," you will list
-     your sources of information, and you will report your answers to the 
-     movie trivia questions.  Also, explain any unusual design decisions or 
+     your sources of information, and you will report your answers to the
+     movie trivia questions.  Also, explain any unusual design decisions or
      problems you had here.
 - `data`: This directory contains the data you need to answer the questions
     asked on this assignment. The data was downloaded and processed in May 2012,
@@ -86,9 +86,9 @@ functions in a functional program, scripts often compose: you can pipe the
 output on stdout of one script into the input on stdin of another script.
 
 When you have finished coding and thoroughly testing the functions in
-`query.ml`, compile the entire application by typing `make` at a shell prompt in
-your Git root directory. To find out what you can do with your script, type the
-following at a shell prompt.
+`query.ml`, compile the entire application by typing `dune build` at a shell
+prompt in your Git root directory. To find out what you can do with your script,
+type the following at a shell prompt.
 
 ```
 ./boxoffice -help
